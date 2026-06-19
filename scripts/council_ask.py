@@ -17,8 +17,8 @@ DeepSeek, Qwen, Llama...). Разные семейства = честная за
 ИСПОЛЬЗОВАНИЕ:
   python3 council_ask.py --prompt-file /tmp/q.txt
   python3 council_ask.py --prompt "короткий вопрос"
-  # свои модели (любые с openrouter.ai/models):
-  python3 council_ask.py --prompt-file q.txt --models "openai/gpt-4o,google/gemini-pro-1.5,deepseek/deepseek-chat"
+  # свои модели (актуальный список на openrouter.ai/models):
+  python3 council_ask.py --prompt-file q.txt --models "openai/gpt-4o,google/gemini-2.5-flash,deepseek/deepseek-chat"
   # у кого есть локальные CLI — можно подмешать:
   python3 council_ask.py --prompt-file q.txt --models "openai/gpt-4o-mini,codex,qwen"
 
