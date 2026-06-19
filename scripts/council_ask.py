@@ -39,7 +39,7 @@ PER_MODEL_TIMEOUT = 240  # сек на одну модель
 
 # Совет по умолчанию: три РАЗНЫХ семейства моделей через один ключ OpenRouter.
 # Дёшево и разнообразно. Сменить можно флагом --models или переменной OPENROUTER_MODELS.
-# Хочешь сильнее (дороже): openai/gpt-4o, google/gemini-pro-1.5, deepseek/deepseek-chat, qwen/qwen-2.5-72b-instruct.
+# Хочешь сильнее (дороже): openai/gpt-4o, google/gemini-2.5-pro и т.п. (список на openrouter.ai/models).
 DEFAULT_MODELS = os.environ.get(
     "OPENROUTER_MODELS",
     "openai/gpt-4o-mini,google/gemini-2.5-flash,deepseek/deepseek-chat,qwen/qwen-2.5-72b-instruct",
@@ -154,7 +154,7 @@ def main():
     ap.add_argument("--prompt-file")
     ap.add_argument("--models", default=DEFAULT_MODELS,
                     help="через запятую: модели OpenRouter (openai/gpt-4o-mini, "
-                         "google/gemini-flash-1.5, ...) и/или локальные codex, qwen")
+                         "google/gemini-2.5-flash, ...) и/или локальные codex, qwen")
     args = ap.parse_args()
 
     if args.prompt_file:
