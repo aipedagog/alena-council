@@ -42,7 +42,7 @@ PER_MODEL_TIMEOUT = 240  # сек на одну модель
 # Хочешь сильнее (дороже): openai/gpt-4o, google/gemini-pro-1.5, deepseek/deepseek-chat, qwen/qwen-2.5-72b-instruct.
 DEFAULT_MODELS = os.environ.get(
     "OPENROUTER_MODELS",
-    "openai/gpt-4o-mini,google/gemini-flash-1.5,deepseek/deepseek-chat,qwen/qwen-2.5-72b-instruct",
+    "openai/gpt-4o-mini,google/gemini-2.5-flash,deepseek/deepseek-chat,qwen/qwen-2.5-72b-instruct",
 )
 
 

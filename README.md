@@ -13,9 +13,9 @@ DeepSeek, Qwen) через **один ключ OpenRouter**. Они отвеча
 2. Положи в `~/.openrouter_key` (или переменную `OPENROUTER_API_KEY`).
 3. Всё. CLI и VPN не нужны.
 
-По умолчанию совет = 4 семейства: `gpt-4o-mini`, `gemini-flash-1.5`, `deepseek-chat`,
-`qwen-2.5-72b`. Сменить: `--models "openai/gpt-4o,google/gemini-pro-1.5,..."` или переменная
-`OPENROUTER_MODELS`.
+По умолчанию совет = 4 семейства: `gpt-4o-mini`, `gemini-2.5-flash`, `deepseek-chat`,
+`qwen-2.5-72b`. Сменить: `--models "openai/gpt-4o,..."` или переменная `OPENROUTER_MODELS`
+(актуальный список моделей — [openrouter.ai/models](https://openrouter.ai/models)).
 
 ## Установка
 ```bash
