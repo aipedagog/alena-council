@@ -1,4 +1,4 @@
-# alena-council — совет ИИ-советников (один ключ → много моделей)
+# conclave — совет ИИ-советников (один ключ → много моделей)
 
 Скилл для **Claude Code**: важный вопрос уходит **нескольким разным моделям** (GPT, Gemini,
 DeepSeek, Qwen) через **один ключ OpenRouter**. Они отвечают независимо и сверяют друг друга —
@@ -19,7 +19,7 @@ DeepSeek, Qwen) через **один ключ OpenRouter**. Они отвеча
 
 ## Установка
 ```bash
-git clone https://github.com/aipedagog/alena-council ~/.claude/skills/alena-council
+git clone https://github.com/aipedagog/conclave ~/.claude/skills/conclave
 ```
 
 ## Источник
